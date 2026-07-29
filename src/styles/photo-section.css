@@ -1,0 +1,19 @@
+.photo-card {
+  overflow: hidden;
+  padding: 0;
+  border-radius: 24px;
+}
+
+.photo-card img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 560px;
+  object-fit: cover;
+}
+
+@media (max-width: 620px) {
+  .photo-card img {
+    max-height: 360px;
+  }
+}

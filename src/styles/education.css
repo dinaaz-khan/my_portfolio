@@ -1,0 +1,49 @@
+.edu-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.edu-item {
+  padding: var(--space-4) var(--space-5);
+  border-left: 3px solid var(--accent);
+}
+
+.edu-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.edu-head h3 { font-size: 1.15rem; }
+
+.edu-duration { color: var(--text-dim); font-size: 0.82rem; }
+
+.edu-school {
+  color: var(--text-muted);
+  margin: 4px 0;
+  font-size: 0.92rem;
+}
+
+.edu-cgpa {
+  color: var(--accent);
+  font-size: 0.82rem;
+  margin-bottom: var(--space-3);
+}
+
+.edu-courses {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.edu-courses span {
+  font-size: 0.75rem;
+  padding: 4px 10px;
+  border-radius: 20px;
+  background: var(--surface-2);
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+}

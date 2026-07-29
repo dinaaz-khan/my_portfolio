@@ -1,0 +1,91 @@
+:root {
+  /* Typography */
+  --font-display: 'Inter', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Spacing scale */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 1rem;
+  --space-4: 1.5rem;
+  --space-5: 2.5rem;
+  --space-6: 4rem;
+  --space-7: 6rem;
+  --space-8: 9rem;
+
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+
+  --container: 1180px;
+
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-theme: background-color .4s var(--ease), color .4s var(--ease), border-color .4s var(--ease);
+}
+
+/* ---------- Light theme ---------- */
+[data-theme='light'] {
+  --bg: #F4F6FA;
+  --bg-alt: #EBEFF6;
+  --surface: #FFFFFF;
+  --surface-2: #F3F7FB;
+  --border: rgba(148, 163, 184, 0.28);
+  --text: #111927;
+  --text-muted: #52607A;
+  --text-dim: #6B7C99;
+
+  --accent: #1F3A67;
+  --accent-2: #4F6D8E;
+  --accent-contrast: #FFFFFF;
+
+  --node: #1F3A67;
+  --wire: rgba(31, 58, 103, 0.18);
+
+  --success: #0F766E;
+  --warn: #B45309;
+
+  --shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.06);
+  --shadow-md: 0 16px 40px -16px rgba(15, 23, 42, 0.14);
+  --shadow-lg: 0 24px 64px -24px rgba(15, 23, 42, 0.18);
+
+  --glass-bg: rgba(255, 255, 255, 0.72);
+  --glass-border: rgba(148, 163, 184, 0.16);
+
+  --scrollbar: #BFC9D8;
+
+  color-scheme: light;
+}
+
+/* ---------- Dark theme ---------- */
+[data-theme='dark'] {
+  --bg: #0B1326;
+  --bg-alt: #101A34;
+  --surface: #111E3A;
+  --surface-2: #172748;
+  --border: rgba(148, 163, 184, 0.18);
+  --text: #E6EDF8;
+  --text-muted: #9DB0CC;
+  --text-dim: #7D8AA3;
+
+  --accent: #4F8EDB;
+  --accent-2: #7EA9E1;
+  --accent-contrast: #FFFFFF;
+
+  --node: #4F8EDB;
+  --wire: rgba(79, 142, 219, 0.16);
+
+  --success: #2DD4BF;
+  --warn: #FBBF24;
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.35);
+  --shadow-md: 0 18px 48px -18px rgba(0, 0, 0, 0.55);
+  --shadow-lg: 0 28px 82px -24px rgba(0, 0, 0, 0.65);
+
+  --glass-bg: rgba(15, 28, 56, 0.78);
+  --glass-border: rgba(148, 163, 184, 0.14);
+
+  --scrollbar: #2D3F5F;
+
+  color-scheme: dark;
+}
