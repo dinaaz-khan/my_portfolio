@@ -10,8 +10,8 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background: linear-gradient(180deg, rgba(31, 58, 103, 0.08), rgba(255,255,255,0.92));
-  border: 1px solid rgba(31, 58, 103, 0.12);
+  background: var(--surface);
+  border: 1px solid var(--border);
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-sm);
   transition: transform .3s var(--ease), box-shadow .3s var(--ease), border-color .3s var(--ease);

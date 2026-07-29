@@ -6,7 +6,7 @@ html {
 
 body {
   font-family: var(--font-body);
-  background: linear-gradient(180deg, rgba(244, 247, 253, 1), rgba(238, 242, 251, 1));
+  background: var(--bg);
   color: var(--text);
   transition: var(--transition-theme);
   overflow-x: hidden;
@@ -124,22 +124,12 @@ h1, h2, h3, h4 {
 
 .btn-outline {
   background: transparent;
-  border-color: rgba(31, 58, 103, 0.18);
+  border-color: var(--border);
   color: var(--text);
 }
 
 .btn-outline:hover {
-  background: rgba(31, 58, 103, 0.08);
-  color: var(--accent);
-  border-color: var(--accent);
-}
-
-.btn-outline:hover {
-  background: rgba(31, 58, 103, 0.12);
-  border-color: var(--accent);
-  color: var(--accent);
-}
-.btn-outline:hover {
+  background: rgba(79, 142, 219, 0.12);
   border-color: var(--accent);
   color: var(--accent);
   transform: translateY(-3px);
@@ -168,14 +158,14 @@ h1, h2, h3, h4 {
 
 .card {
   background: var(--surface);
-  border: 1px solid rgba(31, 58, 103, 0.12);
+  border: 1px solid var(--border);
   border-radius: var(--radius-md);
   transition: transform .35s var(--ease), box-shadow .35s var(--ease), border-color .35s var(--ease);
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
 }
 
-..card:hover {
+.card:hover {
   transform: translateY(-8px);
   box-shadow: var(--shadow-lg);
   border-color: rgba(31, 58, 103, 0.22);

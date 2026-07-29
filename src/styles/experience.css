@@ -38,8 +38,8 @@
 
 .timeline-content {
   padding: var(--space-4);
-  background: linear-gradient(180deg, rgba(31, 58, 103, 0.08), rgba(255,255,255,0.03));
-  border: 1px solid rgba(31, 58, 103, 0.12);
+  background: var(--surface);
+  border: 1px solid var(--border);
   border-radius: var(--radius-md);
 }
 

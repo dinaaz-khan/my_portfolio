@@ -6,8 +6,8 @@
 
 .skill-category {
   padding: var(--space-5);
-  background: linear-gradient(180deg, rgba(31, 58, 103, 0.07), rgba(255,255,255,0.04));
-  border: 1px solid rgba(148, 163, 184, 0.16);
+  background: var(--surface);
+  border: 1px solid var(--border);
 }
 
 .skill-cat-head {

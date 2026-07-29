@@ -2,12 +2,17 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: var(--space-4);
+  align-items: stretch;
 }
 
 .about-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 240px;
   padding: var(--space-5);
-  background: linear-gradient(180deg, rgba(31, 58, 103, 0.06), rgba(255, 255, 255, 0.92));
-  border: 1px solid rgba(31, 58, 103, 0.14);
+  background: var(--surface);
+  border: 1px solid var(--border);
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-sm);
   transition: transform .3s var(--ease), box-shadow .3s var(--ease), border-color .3s var(--ease);
